@@ -5,7 +5,7 @@ if (fs.existsSync(".env"))
 
 //=======[dependencies]====================//
 global.SESSION_ID = process.env.SESSION_ID || "";
-global.MONGODB = process.env.MONGODB_URI || "";
+global.MONGODB = process.env.MONGODB_URI || "mongodb+srv://nignanfatao:famillenignan@cluster0.xkcwhu7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
   ? process.env.SUDO.replace(/[\s+]/g, "")
